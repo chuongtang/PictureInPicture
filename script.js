@@ -4,7 +4,7 @@ const button = document.getElementById('button');
 // Prompt user to select media stream and pass to video element, then play
 async function selectMediaStream(){
     try {
-        alert('Are you ready to try the cool Picture-InPicture?   Click OK, select your screen the click START');
+        alert('Thanks for trying this. Anycomment, please email me chuong.tang@aol.com');
         const mediaStream = await navigator.mediaDevices.getDisplayMedia();
         videoElement.srcObject = mediaStream;
         videoElement.onloadedmetadata = ()=>{
